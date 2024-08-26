@@ -1,121 +1,105 @@
-
 pre {
   color: rgb(25, 1, 41);
   font-size: 25px;
   font-family: sans-serif;
   line-height: 1.5p;
-  overflow: hidden;
   white-space: pre-line;
-   }
- h1 {
+}
+h1 {
   margin-top: 150px;
   margin-bottom: 40px;
   text-align: center;
-     }
+}
 section img {
   width: 400px;
   height: 400px;
   margin-left: 40px;
   margin-right: 20px;
-            }
+}
 .flex_style {
   display: flex;
   justify-content: center;
   overflow: hidden;
-  
-            } 
+}
 .navbar {
   background-color: #910c55;
   padding: 40px;
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
   width: 100%;
-  text-align: center ;
-          }
+  text-align: center;
+}
 .logo {
-  font-weight:  bold;
+  font-weight: bold;
   font-size: larger;
-  color:white;
+  color: white;
   float: left;
-      }
- .navbar_ul {
-   list-style-type: none;
-   overflow: hidden;
-   display: flex;
-   justify-content: flex-end;
-   margin-right: 100px;
-   gap: 1rem
-            }
- .navbar_li_a {
-   text-decoration: none;
-   color: white;
-   font-size: large;
-  
-               }             
-
-   .navbar_li_a:hover{
-    background-color: black;
-                       }       
-                      
-    .navbar_li_a:active{
-   text-decoration: underline;
-                           }
-  .navbar2_ul {
+}
+.navbar_ul {
   list-style-type: none;
   display: flex;
-  overflow: hidden;
+  justify-content: flex-end;
+  margin-right: 100px;
+  gap: 1rem;
+}
+.navbar_li_a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+
+.navbar_li_a:hover {
+  background-color: black;
+}
+
+.navbar_li_a:active {
+  text-decoration: underline;
+}
+.navbar2_ul {
+  list-style-type: none;
+  display: flex;
   flex-direction: column;
-   
+
   gap: 1rem;
 }
 
 .navbar_ul_li {
   margin-bottom: 10px;
 }
-.navbar2_a{
+.navbar2_a {
   border: 2px solid black;
   border-width: 0.1px;
   border-radius: 0.5rem;
   border-top-width: 3px;
   border-bottom-width: 3px;
   text-decoration: none;
-   color: white;
-   font-size: large;
-   margin-right:100px ;
-   text-decoration: none;
+  color: white;
+  font-size: large;
+  margin-right: 100px;
+  text-decoration: none;
   color: white;
   font-size: large;
   background-color: #910c55;
   text-align: center;
-  padding: 20px; 
+  padding: 20px;
   display: flex;
-  justify-content: center; 
-  align-items: center; 
-  width: 150px; 
+  justify-content: center;
+  align-items: center;
+  width: 150px;
   height: 50px;
   box-sizing: border-box;
 }
-   
-  .navbar2_a:hover{
-    background-color: black;
-                       }       
-                      
-  .navbar2_a:active{
-   text-decoration: underline;
-                           }
-   h2{
+
+.navbar2_a:hover {
+  background-color: black;
+}
+
+.navbar2_a:active {
+  text-decoration: underline;
+}
+h2 {
   margin-top: 150px;
   margin-bottom: 40px;
   text-align: center;
-     }
-
-
-            
-            
-
-
-   
- 
-     
+}
