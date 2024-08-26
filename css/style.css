@@ -1,9 +1,18 @@
-pre {
+* {
+  margin: 0;
+  padding: 0;
+}
+p {
   color: rgb(25, 1, 41);
   font-size: 25px;
   font-family: sans-serif;
   line-height: 1.5p;
-  white-space: pre-line;
+}
+.style_margin_top {
+  margin-top: 100px;
+}
+.style_top {
+  margin-top: 15px;
 }
 h1 {
   margin-top: 150px;
@@ -26,7 +35,6 @@ section img {
   padding: 40px;
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
   text-align: center;
 }
