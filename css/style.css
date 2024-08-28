@@ -1,24 +1,136 @@
-body {
-  background-color: rgb(235, 146, 198);
+* {
+  margin: 0;
+  padding: 0;
 }
-header {
-  background-color: rgb(103, 6, 214);
-  padding-top: 50px;
-  padding-bottom: 50px;
-  text-align: center;
-  color: white;
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 40px;
+  scroll-margin-top: 100px;
 }
 p {
   color: rgb(25, 1, 41);
-  font-size: medium;
+  font-size: 25px;
+  font-family: sans-serif;
+  line-height: 1.5p;
 }
-.right {
-  float: right;
+.style_margin_top {
+  margin-top: 100px;
 }
-.left {
-  float: left;
+.style_top {
+  margin-bottom: 25px;
+}
+
+h1,
+h2 {
+  margin-bottom: 25px;
+  text-align: center;
 }
 section img {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
+}
+.flex_style {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.navbar {
+  background-color: #910c55;
+  padding: 40px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+.logo {
+  font-weight: bold;
+  font-size: larger;
+  color: white;
+  float: left;
+  align-items: center;
+}
+.navbar_ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 100px;
+  gap: 1rem;
+}
+.navbar_li_a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+
+.navbar_li_a:hover {
+  background-color: black;
+}
+
+.navbar_li_a:active {
+  text-decoration: underline;
+}
+.navbar2_ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.navbar_ul_li {
+  margin-bottom: 10px;
+}
+.navbar2_a {
+  border: 2px solid black;
+  border-width: 0.1px;
+  border-radius: 0.5rem;
+  border-top-width: 3px;
+  border-bottom-width: 3px;
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  margin-right: 100px;
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  background-color: #910c55;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.navbar2_a:hover {
+  background-color: black;
+}
+
+.navbar2_a:active {
+  text-decoration: underline;
+}
+.grid_container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: auto;
+  gap: 1rem;
+}
+.grid_item {
+  border: 2px solid black;
+  border-radius: 1.5rem;
+  background-color: #c94ad7;
+}
+.grid_item_different_color {
+  border: 2px solid black;
+  border-radius: 1.5rem;
+  background-color: #e18ceb;
+  align-items: center;
 }
