@@ -1,10 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-  --primary-color: #3f0202;
+  --primary-color: #ef0d0d;
   --dark-color: #030305;
 }
 
@@ -63,7 +64,9 @@
 /* home style */
 .container .home_style {
   background-image: url("../img/home_background.jpg ");
-  margin-top: 45vh;
+  margin-top: 50vh;
+  padding: 20px 25px;
+  border-radius: 20px;
 }
 
 .container .home_style div p {
@@ -87,7 +90,7 @@
   background-color: var(--dark-color);
   text-align: center;
   padding: 15px;
-  margin-top: 100px;
+  margin-top: 45px;
 }
 
 .footer_style p {
@@ -99,6 +102,8 @@
 section img {
   width: 100px;
   height: 120px;
+  border: 2px dotted black;
+  border-radius: 15px;
 }
 
 section h3 {
@@ -130,12 +135,15 @@ section h3 {
   text-align: center;
   align-items: center;
   gap: 1rem;
+  margin-top: 15px;
 }
 
 .flex_item {
   border: 3px solid black;
+  border-radius: 20px;
   margin-bottom: 10px;
   background-color: #a77272f5;
+  padding: 8px 15px;
 }
 
 .flex_item ol {
@@ -147,9 +155,11 @@ section h3 {
   margin-top: 50px;
 }
 
-.contact img {
+.contact img,
+.contact i {
   width: 10px;
   height: 15px;
+  margin-right: 7px;
 }
 
 @media (max-width: 768px) {
